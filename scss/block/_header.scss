@@ -1,0 +1,46 @@
+.header {
+  background-color: #1B2330;
+}
+.header__logo:hover {
+  opacity: 0.8;
+}
+
+.header__logo:active {
+  opacity: 0.5;
+}
+
+.header__intro {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header__list{
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.header__item {
+  margin: 0 40px;
+}
+
+.header__link {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #34a0cd;
+}
+
+.header__link:active {
+  color: #34a0cd;
+  opacity: 0.5;
+}

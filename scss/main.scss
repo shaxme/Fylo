@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import "normalize";
+@import "fonts";
+@import "genaral";
+@import "container";
+@import "block/block";
+.main {
+  background-color: #1b2330;
+  background-image: url(/img/bgimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 1170px;
+  padding-top: 0px;
+}

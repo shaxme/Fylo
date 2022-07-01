@@ -1,0 +1,135 @@
+.stay__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 155px;
+}
+
+.stay__intro {
+  max-width: 563px;
+  width: 100%;
+  margin-left: 100px;
+}
+
+.stay__heading {
+  width: 506px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.stay__text {
+  width: 563px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.stay__span {
+  width: 563px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+
+.stay__link { 
+  display: inline-block;
+  width: 146px;
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 19px;
+  color: #62E0D9;
+  text-decoration: none;
+  border-bottom: 2px solid #62E0D9;
+}
+
+
+
+.stay__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 5;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 182px;
+  list-style: none;
+}
+
+.stay__list::before {
+  background-image: url(/img/quote.svg);
+  background-repeat: no-repeat;
+  background-size: auto;  
+  position: absolute;
+  z-index: 5;
+  top: -35px;
+  left: -10px;
+  width: 79px;
+  height: 200px;
+  content: "";
+}
+
+.stay__item {
+  position: relative;
+  z-index: 10;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  max-width: 360px;
+  width: 100%;
+  background-color: #202A3C;
+  box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+  border-radius: 5px;
+}
+
+.stay__list-info {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.stay__list-box {
+  display: flex;
+  align-items: center;
+}
+
+.stay__list-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.stay__list-fullname {
+  margin-left: 8px;
+  padding-top: 5px;
+}
+
+.stay__list-name {
+  margin: 0px;
+  margin-bottom: 4px;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.stay__list-position {
+  margin: 0px;
+  font-family: 'Open Sans';
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
